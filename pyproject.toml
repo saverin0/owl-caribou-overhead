@@ -1,0 +1,25 @@
+[project]
+name = "owlcaribou"
+version = "0.1.0"
+description = "Cross-herd, cross-year evaluation of overhead caribou detection models"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "pillow",
+    "torch>=2.1",
+    "torchvision",
+    "matplotlib",
+]
+
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]

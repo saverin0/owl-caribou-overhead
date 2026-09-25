@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+*.egg-info/
+build/
+dist/
+results/
+figures/
+OWL_Caribou_Project/
+*.pth
+*.zip
+*.npz
+*.tmp
+.env*
